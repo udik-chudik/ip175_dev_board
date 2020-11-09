@@ -542,29 +542,11 @@ F 3 "https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf" H 2400 2950 
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 2900 4150 2900
-Wire Wire Line
-	4150 2900 4150 3500
-Wire Wire Line
 	4150 3500 4900 3500
 Wire Wire Line
-	3500 2700 4200 2700
-Wire Wire Line
-	4200 2700 4200 3400
+	3500 2700 3600 2700
 Wire Wire Line
 	4200 3400 4900 3400
-Wire Wire Line
-	4300 3700 4300 2500
-Wire Wire Line
-	4300 2500 3500 2500
-Wire Wire Line
-	4300 3700 4900 3700
-Wire Wire Line
-	3500 2300 4350 2300
-Wire Wire Line
-	4350 2300 4350 3600
-Wire Wire Line
-	4350 3600 4900 3600
 $Comp
 L Device:C_Small C5
 U 1 1 5F856679
@@ -599,29 +581,9 @@ F 3 "https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf" H 2400 5650 
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 5000 4200 4200
-Wire Wire Line
-	4200 4200 4900 4200
-Wire Wire Line
-	3500 5000 4200 5000
-Wire Wire Line
 	4900 4100 4300 4100
 Wire Wire Line
-	4300 4100 4300 5200
-Wire Wire Line
-	4300 5200 3500 5200
-Wire Wire Line
-	3500 5400 4400 5400
-Wire Wire Line
-	4400 5400 4400 4400
-Wire Wire Line
-	4400 4400 4900 4400
-Wire Wire Line
 	4900 4300 4450 4300
-Wire Wire Line
-	4450 4300 4450 5600
-Wire Wire Line
-	4450 5600 3500 5600
 $Comp
 L Device:C_Small C6
 U 1 1 5F884224
@@ -785,22 +747,6 @@ F 3 "https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf" H 2400 1350 
 	1    3100 1000
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3500 700  5750 700 
-Wire Wire Line
-	5750 700  5750 2850
-Wire Wire Line
-	3500 900  5850 900 
-Wire Wire Line
-	5850 900  5850 2850
-Wire Wire Line
-	3500 1100 5550 1100
-Wire Wire Line
-	5550 1100 5550 2850
-Wire Wire Line
-	3500 1300 5650 1300
-Wire Wire Line
-	5650 1300 5650 2850
 $Comp
 L Device:C_Small C4
 U 1 1 5F97554C
@@ -1551,4 +1497,56 @@ Wire Wire Line
 Connection ~ 6150 6200
 Wire Wire Line
 	6150 6200 6150 6500
+Wire Wire Line
+	4300 5000 4300 4100
+Wire Wire Line
+	3500 5000 4300 5000
+Wire Wire Line
+	3500 5200 4150 5200
+Wire Wire Line
+	4150 5200 4150 4200
+Wire Wire Line
+	4150 4200 4900 4200
+Wire Wire Line
+	4350 4400 4900 4400
+Wire Wire Line
+	4450 4300 4450 5400
+Wire Wire Line
+	4450 5400 3500 5400
+Wire Wire Line
+	4350 4400 4350 5600
+Wire Wire Line
+	4350 5600 3500 5600
+Wire Wire Line
+	3500 2900 3500 3700
+Wire Wire Line
+	3500 3700 4900 3700
+Wire Wire Line
+	3600 3600 3600 2700
+Wire Wire Line
+	3500 2300 4200 2300
+Wire Wire Line
+	4200 2300 4200 3400
+Wire Wire Line
+	3500 2500 4150 2500
+Wire Wire Line
+	4150 2500 4150 3500
+Wire Wire Line
+	3600 3600 4900 3600
+Wire Wire Line
+	5650 1100 3500 1100
+Wire Wire Line
+	5650 1100 5650 2850
+Wire Wire Line
+	3500 1300 5550 1300
+Wire Wire Line
+	5550 1300 5550 2850
+Wire Wire Line
+	3500 700  5850 700 
+Wire Wire Line
+	5850 700  5850 2850
+Wire Wire Line
+	5750 900  5750 2850
+Wire Wire Line
+	3500 900  5750 900 
 $EndSCHEMATC
